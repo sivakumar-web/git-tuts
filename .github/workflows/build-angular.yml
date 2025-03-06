@@ -8,15 +8,15 @@ on:
     build-angular;
     runs-on :ubuntu-latest
 
-    steps :
+  steps:
      -uses: actions/checkout@4
 
-     -name:setup NodeJS
+     -name: setup NodeJS
        uses:actions/setup-node@v4
-       with:
+  with:
          node-version:18x
 
-         -name: Install dependencies
+  -name: Install dependencies
            run:npm install
 
           -name :build
