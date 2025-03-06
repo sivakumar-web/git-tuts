@@ -8,7 +8,7 @@ on:
     build-angular;
     runs-on :ubuntu-latest
 
-    steps:
+    steps :
      -uses: actions/checkout@4
 
      -name:setup NodeJS
